@@ -1,0 +1,78 @@
+body {
+	background-image: url(langit.jpg);
+}
+h1 {
+	font-size: 50px ;
+	color: black;
+	text-align: center;
+	border-style: outset;
+	border-color: #fcb4b4 ;
+	background-color: #fcb4b4 ;
+}
+table {
+	color: black;
+	text-align: center;
+	background-color: # ;
+	
+}
+h2 {
+	font-size: 50px ;
+	color: black;
+	text-align: center;
+
+}
+p {
+	color: black;
+	font-size: 20px ;
+}
+nav {
+	display: block;
+	background-color: pink;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px pink;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+nav a {
+	float: left;
+	color: purple;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 0.5px solid pink;
+	border-radius: 2px;
+}
+
+nav a:hover {
+	background-color: pink;
+	color: purple;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+.container {
+			max-width: 1200px;
+			margin: auto;
+			background-color: pink;
+			overflow: auto;
+}
+
+.gallery {
+			margin: 5px;
+			border:1px solid black;
+			float: left;
+			width: 390px;
+		}
+		
+.gallery img {
+		width: 100%;
+		height: auto;
+		display: block;
+}

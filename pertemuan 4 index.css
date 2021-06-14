@@ -12,7 +12,7 @@ h1 {
 table {
 	color: black;
 	text-align: center;
-	background-color: # ;
+	
 	
 }
 h2 {
@@ -25,6 +25,7 @@ p {
 	color: black;
 	font-size: 20px ;
 }
+
 nav {
 	display: block;
 	background-color: pink;
@@ -44,8 +45,8 @@ nav a {
 }
 
 nav a:hover {
-	background-color: pink;
-	color: purple;
+	background-color: purple;
+	color: pink;
 }
 
 ul {
@@ -60,19 +61,16 @@ li {
 .container {
 			max-width: 1200px;
 			margin: auto;
-			background-color: pink;
-			overflow: auto;
+			
 }
 
-.gallery {
-			margin: 5px;
-			border:1px solid black;
-			float: left;
-			width: 390px;
-		}
-		
-.gallery img {
-		width: 100%;
-		height: auto;
-		display: block;
+table img{
+	width: 300px
+}
+
+table p{
+	font-size: 16px;
+	font-family: Helvetica;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
 }
